@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Chandril C Ghosh"
+  },
+  "text": {
+    "more": "The Undirected Network Graph created by connecting nodes (representing signs, symptoms, and experiences) using the Force Atlas algorithm on the 39689 pairs of combinations. The network graph has 672 nodes connected to each other by 30023 edges, the average degree being 6.3670. The nodes represent symptoms and experiences related to psychopathology, and the edges representing relationships between them.The network graph displays how influential or important a node is in the network is (with size). No claims of causality about the linkages are being made.",
+    "intro": "Display of the influentiality of symptoms and experiences in the network of psychopathology",
+    "title": "Network of Psychopathology"
+  },
+  "legend": {
+    "edgeLabel": "Associations",
+    "colorLabel": "Eigenvalues",
+    "nodeLabel": "Experiences"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Eigenvector Centrality",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
