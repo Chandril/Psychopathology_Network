@@ -8,7 +8,7 @@
     "text": "Chandril C Ghosh"
   },
   "text": {
-    "more": "The Undirected Network Graph created by connecting nodes (representing signs, symptoms, and experiences) using the Force Atlas algorithm on the 39689 pairs of combinations. The network graph has 672 nodes connected to each other by 30023 edges, the average degree being 6.3670. The nodes represent symptoms and experiences related to psychopathology, and the edges representing relationships between them.The network graph displays how influential or important a node is in the network is (with size). No claims of causality about the linkages are being made.",
+    "more": "The Undirected Network Graph created by connecting nodes (representing signs, symptoms, and experiences) using the Force Atlas algorithm on the 39689 pairs of combinations. The network graph has 672 nodes connected to each other by 30023 edges, the average degree being 6.3670. The nodes represent symptoms and experiences related to psychopathology, and the edges representing relationships between them.The network graph displays how influential or important a node is in the network is (with size). No claims of causality about the linkages are being made. This visualization uses the code produced by the Oxford Internet Institute, University of Oxford, within the Jisc-funded InteractiveVis project. The data belongs to Dr Chandril C Ghosh.",
     "intro": "Display of the influentiality of symptoms and experiences in the network of psychopathology",
     "title": "Network of Psychopathology"
   },
